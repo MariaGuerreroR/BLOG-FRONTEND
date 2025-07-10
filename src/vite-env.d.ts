@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://blog-backen-5o6c.onrender.com',
+        target: 'https://blog-backen-qgmz.onrender.com',
         changeOrigin: true,
         secure: false
       }
